@@ -27,7 +27,7 @@ object PactPluginJson {
       executableType = "exec",
       entryPoint = "bin/pact-avro-plugin",
       entryPoints = Map(
-        "windows" -> "bin/pact-avro-plugin.bat"
+        "windows" -> "bin/pact-avro-plugin.ps1"
       ),
       dependencies = List(
         PactPluginDependency(
